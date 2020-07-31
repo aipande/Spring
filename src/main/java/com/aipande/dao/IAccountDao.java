@@ -13,7 +13,7 @@ import java.util.List;
 public interface IAccountDao {
 
     /**
-     * 根据账户名称查询账户信息
+     * 根据账户名称查询账户信息123
      * @param accountName
      * @return
      */
