@@ -46,7 +46,7 @@ public class AccountService implements IAccountService {
         }
         //3.转出账户减钱
         accountDao.updateAccount(source.getId(),source.getMoney().subtract(money));
-        int a = 1/0;
+        /*int a = 1/0;*/
         //4.转入账户加钱
         accountDao.updateAccount(target.getId(),target.getMoney().add(money));
     }
